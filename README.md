@@ -1,2 +1,1 @@
-# dmbutler09.github.io
-HCDE 598 Digital Fabrication
+HCDE 598 Special Topics Digital Fabrication
