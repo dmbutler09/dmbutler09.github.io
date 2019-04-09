@@ -17,12 +17,16 @@ a {
 .header {
   background: #fff;
   color: #000;
-  height: 500px;
-  padding: 30px 30px 30px;
+  height: 400px;
+  padding: 0px 30px 30px;
 }
 
 .header h1 {
   font-size: 50px;
+  color: #800000;
+  border-left: 10px solid #800000;
+  background-color: #0000001A;
+  padding: 5px 5px 5px 10px;
   }
 
 .assignment {
@@ -67,3 +71,7 @@ a {
   text-decoration: none;
 }
 
+.inline{
+  display: inline;
+  margin-left: 10px;
+}
