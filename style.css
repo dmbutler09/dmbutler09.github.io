@@ -1,7 +1,5 @@
 
 html, body {
-  padding: 0 0 0 0;
-  margin: 0;
   font-family: 'helvetica', 'arial', 'sans';
 }
 
@@ -25,16 +23,17 @@ a {
   font-size: 50px;
   color: #800000;
   border-left: 10px solid #800000;
-  background-color: #0000001A;
+  background-color: #EFEFEF;
   padding: 5px 5px 5px 10px;
   }
+
 
 .assignment {
   font-size: 12px;
   line-height: 24px;
   font-family: 'helvetica', 'arial', 'sans';
-  padding: 20px 20px 20px 30px;
-  width: 250px;
+  padding: 10px 10px 10px 10px;
+  width: 30%;
   height: 350px;
   float: left;
 }
@@ -49,6 +48,14 @@ a {
   color: #F06;
   text-decoration: none;
 }
+
+.assignment h2 {
+  font-size: 22px;
+  color: #800000;
+  border-left: 7px solid #800000;
+  background-color: #EFEFEF;
+  padding: 5px 5px 5px 5px
+ }
 
 
 .footer {
@@ -72,6 +79,17 @@ a {
 }
 
 .inline{
-  display: inline;
-  margin-left: 10px;
+  display: inline-block;
+  margin: auto;
+}
+
+.sectionheader{
+  margin: auto;
+  display: block;
+  float: left;
+  width: 30%;
+  border: none;
+  background-color:
+  #FFFFFF;
+  color: #800000;
 }
