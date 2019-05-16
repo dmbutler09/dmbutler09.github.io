@@ -1,25 +1,110 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8"> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
 
-        <title>Example Student's HCDE 439 Physical Computing Page!</title> 
+        <title>D'Marcus' HCDE 598 Assignment 5!</title>
 
         <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 
-    </head> 
-    <body> 
+    </head>
+    <body>
 
         <div class="header">
-            <h1>Example Student's Assignment 2!</h1>
-            <p>
-            <img src="red-panda.jpg" width=400></a>
+            <h1>Box Tales</h1>
+            <center><video width="20%" height="300" controls autoplay>
+                <source src="Assignment 5/Milling.MOV" type="video/mp4">
+              </video></center>
+          </div>
+
+          <div style="padding: 0px 30px 30px; margin: 20px auto;">
+            <h1 class="sectionheader"> STEP 1 </h1>
+            <p style="float: left; width: 20%; display: inline-block;">
+              This is the story all about how I started creating a box that you can
+              turn upside down. I started in Illustrator because I am beyond frustrated
+              with solid work tools. I was able to visualize the pieces more clearly
+              and how they would fit together. I combined that with some sketching
+              to flesh out the idea. Similar to my press fit kit, I used out cropping
+              pieces to hold the shape together.
             </p>
-            <p>
-            Here is all the documentation for assignment 2!
+            <img class="inline" src="Assignment 5/IllustratorScreenshot.png" width=20% style="float: left;
+             margin: 20px;">
+            <img class="inline" src="Assignment 5/Sketch.JPG" width=20% style="float: left;
+             margin: 20px;">
+           </div>
+
+           <div style="padding: 0px 30px 30px; margin: 20px">
+             <h1 class="sectionheader" style="margin: 20px; display: block; float: left;"></h1>
+             <h1 class="sectionheader" style="margin: 20px; display: block; float: left;"> STEP 2 </h1>
+             <p style="float: left; width: 30%; margin: auto;">
+               In the next step, I exported a DXF from Illustrator to OnShape. In
+               OnShape I extruded the paths and added my dogbones for milling.
+               </p>
+             <img class="inline" src="Assignment 5/OnShapeScreenShot.png" width=30%
+             style="float: left; margin: 5px 10px;"></a>
+
+            <div style="padding: 0px 30px 30px; margin: 20px auto;">
+              <h1 class="sectionheader" style="margin: auto;"> STEP 3 </h1>
+              <p style="float: left; width: 30%; margin: auto;">
+              Then I needed to set up some DXFs for milling. I exported the individual
+              pieces then imported those pieces in KiCad to create the boards that
+              I'd be milling with Bantam. In Bantam I adjusted the size of my material,
+              the placement on the z-axis, and the starting x & y of the drill so
+              that it wouldn't cut too close to the edge.
+                </p>
+              <img class="inline" src="Assignment 5/BantamScreenshot.png" width=30%
+              style="float: left; margin: 5px 10px;"></a>
+
+             <div style="padding: 0px 30px 30px; margin: 20px auto;">
+                 <p style="width: 30%; margin: auto; float: left;" >
+                   <b>You can download the (corrected) source files here.</b>
+                   <br>
+                   <a href="Assignment 3/Lotus Lamp.3dm">Side parts 2 DXF</a>
+                   <br>
+                   <a href="Assignment 5/BoxParts.ai">Illustrator base</a>
+                   <br>
+                   <a href="Assignment 3/Petal_lg.stl">Top & Bottom DXF</a>
+                   <br>
+                   <a href="Assignment 3/Petal_sm.stl">Side parts 1 DXF</a>
+                 </p>
+                 <img class="inline" src="Assignment 3/BasePieces.png" width=30%></a>
+                 <img class="inline" src="Assignment 3/justLeaves.png" width=30%></a>
+
+               </div>
+
+          <div style="padding: 0px 30px 30px; margin: 20px auto;">
+            <h1 class="sectionheader"> STEP 4 </h1>
+            <p style="float: left; width: 30%">
+              Milling! I changed tools a lot. I used a 1/8, which is the size I
+              designed for, but didn't work out. Also a 1/16 that ended up actually
+              doing all of my cutting, and a 1/32 that I decided not to cut with
+              because it was too small. The first run through my pieces came out
+              too big and wouldn't fit together.
+              <br>
+              <br>
+              So I went back and redid my process from scratch and added a bit of math
+              to find the perfect fit for my pieces.
+              <br>
+              <br>
+              In my second milling attemp, my dogbones were seperate from the rest
+              of the outline because of the wrong tool size.
+              The last pieces I printed the the connecting male pieces were too small
+              for the female parts, but the piece that printed wrong did fit.
+            <br>
+            <br>
+
+            Thanks to Dhwani, Hannah, Leo, and Josh for their help in this process.
             </p>
-        </div>
-        
+            <img class="inline" src="Assignment 3/Many_test_prints.JPG" width=30% style="float: left;
+              margin: 20px;"></a>
+              <img class="inline" src="Assignment 3/Many_test_prints.JPG" width=30% style="float: left;
+                margin: 20px;"></a>
+                <img class="inline" src="Assignment 3/Many_test_prints.JPG" width=30% style="float: left;
+                  margin: 20px;"></a>
+            <center><img class="inline" src="Assignment 3/TestFit.JPG" width=30% style="margin: auto;"></center>
+           </div>
+
+
     </body>
 </html>
